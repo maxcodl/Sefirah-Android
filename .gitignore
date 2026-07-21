@@ -1,6 +1,7 @@
 *.iml
 .gradle
 /build-logic/.gradle\
+/build-logic/
 /build-logic/convention/build
 /local.properties
 /.idea/caches
@@ -16,3 +17,10 @@
 .externalNativeBuild
 .cxx
 local.properties
+.gitignore
+.gitignore
+app-release-signed.apk
+.gitignore
+app-release-signed.apk.idsig
+release-key.jks
+.kotlin/errors/errors-1784182246864.log

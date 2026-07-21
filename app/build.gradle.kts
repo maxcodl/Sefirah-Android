@@ -65,7 +65,7 @@ dependencies {
     api(projects.data)
     api(projects.domain)
 
-    implementation(libs.androidx.appcompat)
+ 
     implementation(libs.hilt.navigation.compose)
     implementation(libs.core.ktx)
     implementation(libs.androidx.work)
@@ -81,6 +81,7 @@ dependencies {
     implementation(libs.richtext.commonmark)
     implementation(libs.reorderable)
 
+
     implementation(libs.androidx.media)
     implementation(libs.androidx.hilt.work)
     implementation(libs.zxing.cpp.android)
@@ -90,6 +91,7 @@ dependencies {
     implementation(libs.camerax.view)
     implementation(libs.guava)
 
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -97,4 +99,6 @@ dependencies {
     androidTestImplementation(libs.compose.ui.test.junit)
     debugImplementation(libs.compose.ui.tooling)
     debugImplementation(libs.compose.ui.test.manifest)
+
+    
 }
