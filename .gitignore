@@ -17,10 +17,7 @@
 .externalNativeBuild
 .cxx
 local.properties
-.gitignore
-.gitignore
 app-release-signed.apk
-.gitignore
 app-release-signed.apk.idsig
 release-key.jks
 .kotlin/errors/errors-1784182246864.log
