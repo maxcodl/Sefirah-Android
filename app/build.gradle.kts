@@ -15,7 +15,7 @@ android {
         applicationId = "com.castle.sefirah"
 
         versionCode = 33
-        versionName = "3.0.0"
+        versionName = "3.0.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -36,10 +36,17 @@ android {
         compose = true
     }
 
-    packaging {
+packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1,DEPENDENCIES}"
             excludes += "META-INF/versions/**"
+            excludes += "META-INF/*.version"
+            excludes += "META-INF/**/*.version"
+            excludes += "META-INF/*.txt"
+            excludes += "META-INF/*.md"
+            excludes += "META-INF/**/*.textproto"
+            excludes += "META-INF/**/*.kotlin_module"
+            excludes += "META-INF/com/android/build/gradle/app-metadata.properties"
         }
     }
 }

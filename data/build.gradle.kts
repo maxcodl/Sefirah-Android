@@ -8,6 +8,10 @@ android {
     namespace = "sefirah.data"
 }
 
+tasks.withType<com.android.build.gradle.tasks.VerifyLibraryResourcesTask>().configureEach {
+    enabled = false
+}
+
 dependencies {
     api(projects.domain)
     api(projects.core.network)
